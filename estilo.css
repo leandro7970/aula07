@@ -1,0 +1,168 @@
+.body {
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 9px 0;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a:hover {
+    color: #2bac40
+}
+
+.tutulo_menu {
+    margin-left: 4%;
+    color: #151616;
+    font-size: 60;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo1 {
+    margin-top: 0%;
+    margin-left: 20%;
+    
+}
+
+.div_top {
+    background-color: #f5e9e9;
+    height: 50%;
+    width: 100%;
+}
+
+.titulo_orca {
+    color: #ffffff;
+    font-size: 60;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.titulo_orca2 {
+    color: #ffffff;
+    margin-left: 43%;
+    font-size: 40;
+    text-decoration: none;
+    border-style: solid;
+}
+
+.container {
+    width: 100%;
+}
+
+.bloco {
+    float: left;
+    width: 30%;
+    margin: 10px 1.5333333%;
+    height: 300px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(221, 219, 219);
+}
+
+.bloco2 {
+    float: left;
+    width: 30%;
+    margin: 10px 1.5333333%;
+    height: 450px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(70, 66, 66);
+}
+
+.bloco3 {
+    float: left;
+    width: 30%;
+    margin: 10px 1.5333333%;
+    height: 300px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    
+    
+}
+
+.espaco_img {
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.espaco_img2 {
+    margin-top: 10%;
+    margin-left: 28%;
+}
+
+
+.titulo_video {
+    color: #000000;
+    margin-left: 28%;
+    font-size: 32;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%
+}
+
+.btn1 {
+    font-family: arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff00ff
+}
+
+.btn {
+    font-family: arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(70, 66, 66);
+    padding: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    margin-left: 38%
+}
+
+.espaco_video {
+    margin-left: 28%;
+    margin-top: 2%
+}
+
+.nome_menu {
+    color: #ff00ff;
+    font-size: 35;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    text-decoration: none;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
